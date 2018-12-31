@@ -5,6 +5,11 @@
 #   Notes: 4.2.4 Upgrade Working & more 14.04 Support
 #  Zenoss: Core 4.2.5 (v2108) + ZenPacks
 #      OS: Ubuntu/Debian 64-Bit
+#      Install:
+#      1 - Install Ubuntu 14.04
+#      2 - Update everything to the max
+#      3 - sudo apt-get install libpangocairo-1.0-0 libx11-xcb1 libxcomposite1 libxcursor1 libxdamage1 libxi6 libxtst6 libnss3 libcups2 libxss1 libxrandr2 libgconf2-4 libasound2 libatk1.0-0 libgtk-3-0
+#      4 - 
 ##########################################
 
 # Beginning Script Message
