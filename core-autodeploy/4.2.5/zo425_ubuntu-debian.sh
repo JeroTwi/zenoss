@@ -85,7 +85,7 @@ if [ $curos = "debian" ]; then
 fi
 
 # Download Zenoss DEB and install it
-wget -N https://sourceforge.net/projects/zenossforubuntu/files/zenoss-core-425-2108_03c_amd64.deb/download -P $DOWNDIR/
+wget -N https://sourceforge.net/projects/zenossforubuntu/files/zenoss-core-425-2108_03c_amd64.deb -P $DOWNDIR/
 if [ $UPGRADE = "no" ]; then
 	dpkg -i $DOWNDIR/zenoss-core-425-2108_03c_amd64.deb
 fi
