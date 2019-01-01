@@ -5,14 +5,14 @@
 #  Zenoss: Core 4.2.5 (v2108) + ZenPacks
 #      OS: Ubuntu 64-Bit
 #      Install howto:
-#      1 - Install Ubuntu 16.04
+#      1 - Install Ubuntu 14.04
 #      2 - Set static IP
 #      3 - Run this script
 ##########################################
 
 # Beginning Script Message
 clear
-echo && echo "Welcome to the Zenoss 4.2.5 core-autodeploy script for Ubuntu 16.04! (Originally from http://hydruid-blog.com/?p=710)" && echo
+echo && echo "Welcome to the Zenoss 4.2.5 core-autodeploy script for Ubuntu 14.04! (Originally from http://hydruid-blog.com/?p=710)" && echo
 echo "*WARNING*: This script will update your OS, this script does not work for Debian distro's."
 echo "           Make sure to make a backup and/or take a snapshot!" && echo && sleep 5
 echo "...Begin, we will, learn you must." && sleep 1
