@@ -2,7 +2,6 @@
 ##########################################
 # Version: 03b
 #  Status: Functional
-#   Notes: 4.2.4 Upgrade Working & more 14.04 Support
 #  Zenoss: Core 4.2.5 (v2108) + ZenPacks
 #      OS: Ubuntu 64-Bit
 #      Install howto:
