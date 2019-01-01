@@ -159,9 +159,6 @@ wget --no-check-certificate -N https://raw.githubusercontent.com/JeroTwi/zenoss/
 chown -c zenoss:zenoss $ZENHOME/bin/secure_zenoss_ubuntu.sh && chmod -c 0700 $ZENHOME/bin/secure_zenoss_ubuntu.sh
 su -l -c "$ZENHOME/bin/secure_zenoss_ubuntu.sh" zenoss
 
-echo '#max_allowed_packet=16M' >> /etc/mysql/my.cnf
-echo 'innodb_buffer_pool_size=256M' >> /etc/mysql/my.cnf
-echo 'innodb_additional_mem_pool_size=20M' >> /etc/mysql/my.cnf
 sed -i 's/mibs/#mibs/g' /etc/snmp/snmp.conf
 wget --no-check-certificate -N https://raw.githubusercontent.com/JeroTwi/zenoss/master/core-autodeploy/$ZVERb/misc/backup.sh -P $ZENOSSHOME
 
