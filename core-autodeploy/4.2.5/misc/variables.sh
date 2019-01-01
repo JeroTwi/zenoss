@@ -50,6 +50,8 @@ detect-os () {
 		then    $supos && curos="ubuntu"
         elif grep -q "Ubuntu 14" /etc/issue.net
                 then    $supos && curos="ubuntu" && idos="14"
+        elif grep -q "Ubuntu 16" /etc/issue.net
+                then    $supos && curos="ubuntu" && idos="16"
 	elif grep -q "Ubuntu 12" /etc/issue.net
 		then    $supos && curos="ubuntu"
 	elif grep -Fxq "Debian GNU/Linux 7" /etc/issue.net
